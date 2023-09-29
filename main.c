@@ -5,7 +5,7 @@
 void rouletteRusse() {
     srand(time(NULL));
 
-    int barillet, balles, positionBalle, joueurActuel = 1;
+    int barillet, balles, positionBalle1, positionBalle2, joueurActuel = 1;
 
     printf("Entrez la taille du barillet du colt : ");
     scanf("%d", &barillet);
@@ -18,7 +18,8 @@ void rouletteRusse() {
         return;
     }
 
-    positionBalle = rand() % barillet + 1;
+    positionBalle1 = rand() % barillet + 1;
+    positionBalle2 = rand() % barillet + 1;
 
     printf("\nLa partie commence !\n");
 
@@ -28,20 +29,23 @@ void rouletteRusse() {
         scanf(" %c", &choix);
 
         if (choix == 'q') {
-            printf("Joueur %d a quitté la partie. Joueur %d remporte la partie.\n", joueurActuel, 3 - joueurActuel);
+            printf("Joueur %d a quitte la partie. Joueur %d remporte la partie.\n", joueurActuel, 3 - joueurActuel);
             return;
         } else if (choix == 't') {
-
             printf("BOOM!\n");
 
-            if (positionBalle == 1) {
-                printf("Joueur %d est tombé sur une balle ! Joueur %d a perdu.\n", joueurActuel, 3 - joueurActuel);
+            if ((joueurActuel == 1 && positionBalle1 == 1) || (joueurActuel == 2 && positionBalle2 == 1)) {
+                printf("Joueur %d a tiré une balle ! Joueur %d a perdu.\n", joueurActuel, 3 - joueurActuel);
                 return;
             } else {
                 printf("Le barillet tourne...\n");
             }
 
-            positionBalle = (positionBalle % barillet) + 1;
+            if (joueurActuel == 1) {
+                positionBalle1 = (positionBalle1 % barillet) + 1;
+            } else {
+                positionBalle2 = (positionBalle2 % barillet) + 1;
+            }
 
             joueurActuel = 3 - joueurActuel;
         } else {
