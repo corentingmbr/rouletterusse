@@ -35,7 +35,7 @@ void rouletteRusse() {
             printf("BOOM!\n");
 
             if ((joueurActuel == 1 && positionBalle1 == 1) || (joueurActuel == 2 && positionBalle2 == 1)) {
-                printf("Joueur %d a tiré une balle ! Joueur %d a perdu.\n", joueurActuel, 3 - joueurActuel);
+                printf("Joueur %d s'est tiré une balle \n", joueurActuel);
                 return;
             } else {
                 printf("Le barillet tourne...\n");
