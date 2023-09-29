@@ -1,0 +1,3 @@
+C:/Users/coren/OneDrive/Documents/GitHub/rouletterusse/cmake-build-debug/CMakeFiles/rouletterusse.dir
+C:/Users/coren/OneDrive/Documents/GitHub/rouletterusse/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/coren/OneDrive/Documents/GitHub/rouletterusse/cmake-build-debug/CMakeFiles/rebuild_cache.dir

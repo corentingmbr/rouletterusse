@@ -1,0 +1,14 @@
+La Roulette russe ;
+
+En C créer une fonction Roulette Russe;
+
+cette fonction doit :
+
+*Permettre à l'utilisateur de choisir la taille du barillet du colt et le nombre de balles dedans
+*Permettre à 2 utilisateurs de s'affronter une personne
+*Elle doit avoir la possibilité de quitter la partie à tout moment
+*Évidemment l'utilisateur doit pouvoir intéragir avec le code et choisir de tirer
+
+Requis:
+
+-Créer une fonction.

@@ -1,0 +1,9 @@
+# ninja log v5
+1	143	7176757997640383	CMakeFiles/rouletterusse.dir/main.c.obj	892616d4f87ce983
+145	359	7176757999723401	rouletterusse.exe	c7cbf8ff2ca0cd3b
+2	90	7176760183152617	CMakeFiles/rouletterusse.dir/main.c.obj	892616d4f87ce983
+90	204	7176760184212647	rouletterusse.exe	c7cbf8ff2ca0cd3b
+2	85	7176761830651370	CMakeFiles/rouletterusse.dir/main.c.obj	892616d4f87ce983
+85	209	7176761831843198	rouletterusse.exe	c7cbf8ff2ca0cd3b
+1	85	7176762962909447	CMakeFiles/rouletterusse.dir/main.c.obj	892616d4f87ce983
+86	177	7176762963784426	rouletterusse.exe	c7cbf8ff2ca0cd3b
